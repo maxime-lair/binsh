@@ -1,0 +1,2 @@
+# binsh
+Binsh configuration
