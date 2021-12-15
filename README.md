@@ -1,2 +1,2 @@
 # binsh
-Binsh configuration
+Temporary project - blank for now
