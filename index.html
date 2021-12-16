@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Landing page | Password Strength Visualization</title>
+		<meta name="description" content="Visual feedback for password strength on an image that gets pixelated or blurred." />
+		<meta name="keywords" content="password strength, visual feedback, image, canvas, javascript, css, blur, pixelated" />
+		<meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-1 loading">
+
+		<main>
+            <div class="content content--side">
+                    <p class="typing-demo">
+                    <span class="type var-highlight">Temporary placeholder on: </span> binsh.io
+                        Available services: 
+                        <span class="type string-highlight">- Prometheus</span>
+                        <span class="type string-highlight">- Grafana</span>
+                        <span class="type string-highlight">- Simple web server</span>
+                        <span class="type string-highlight">- Traefik</span>
+                        
+                        Services running on docker, for educational purpose
+
+                        Check out <span class="type var-highlight">github</span> for more info
+                    </p>
+            </div>
+        
+			<div class="content content--side" >
+				<header class="codrops-header">
+					<h1 class="codrops-header__title">Password Strength Visualization</h1>
+                    <p class="info">Test out your password, if you dare.</p>
+                    <form class="form" action="" method="">
+                        <div class="form__item">
+                            <label class="form__label" for="password">Password</label>
+                            <div class="form__input-wrap">
+                                <input class="form__input" type="password" name="password" id="password">
+                                <p class="form__password-strength" id="strength-output"></p>
+                            </div>
+                        </div>
+                    </form>
+                        <button id="btn" class="input-Worst">
+                            <p id="btnText">Submit</p>
+                            <div class="check-box" >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                                </svg>
+                            </div>
+                        </button>
+				</header>
+				
+
+                    <div class="poster" style="background-image:url(img/wp1.jpg)"></div>
+                    <div class="canvas-wrap">
+                        <canvas></canvas>
+                    </div>
+                    
+            </div>
+
+			<div class="content content--last" >
+
+			</div>
+        </main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/zxcvbn.js"></script>
+		<script src="js/demo1.js"></script>
+	</body>
+</html>
