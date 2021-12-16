@@ -2,7 +2,7 @@
 
 Visual feedback for password strength on an image based on [Colibro's sign up form](https://app.colibro.com/accounts-register/register).
 
-![password](https://tympanus.net/codrops/wp-content/uploads/2018/04/PasswordStrengthVisualization.jpg)
+![password](![image](https://user-images.githubusercontent.com/72258375/146394408-3b42a8b2-e24d-4447-9fad-719f3416798b.png))
 
 [Article on Codrops](https://tympanus.net/codrops/?p=34613)
 
