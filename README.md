@@ -1,5 +1,12 @@
 # Password Strength Visualization
 
+*Screenshots:*
+
+![image](https://user-images.githubusercontent.com/72258375/147675069-67d69ad9-3f97-4025-8497-ae402da5eb2e.png)
+
+![image](https://user-images.githubusercontent.com/72258375/147675097-d9cbe7d6-aa7d-4160-bbd0-62dcdbe8269c.png)
+
+
 Visual feedback for password strength on an image based on [Colibro's sign up form](https://app.colibro.com/accounts-register/register).
 
 ![password](![image](https://user-images.githubusercontent.com/72258375/146394408-3b42a8b2-e24d-4447-9fad-719f3416798b.png))
